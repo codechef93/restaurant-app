@@ -1,0 +1,1 @@
+<sidenavcomponent :menus="{{ json_encode($menus) }}" :menu_key="{{ json_encode($menu_key) }}" :sub_menu_key="{{ json_encode($sub_menu_key) }}"></sidenavcomponent>

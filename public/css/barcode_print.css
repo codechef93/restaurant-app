@@ -1,0 +1,30 @@
+.container{
+    display: table;
+    border-collapse:collapse;
+    font-family: 'Courier New';
+    font-size: 6px;
+}
+
+.column {
+    display: table-cell;
+    float: left;
+    width: 10%;
+    padding: 11px;
+    border-bottom: 0.5px dashed #ccc;
+    border-right: 0.5px dashed #ccc;
+    page-break-inside: avoid;
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 8px;
+}
+
+.mt-2px{
+    margin-top: 2px !important;
+}
+
+.mb-2px{
+    margin-bottom: 2px !important;
+}

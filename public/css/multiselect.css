@@ -1,0 +1,17 @@
+.multiselect__tags{
+    min-height: 0 !important;
+    border-radius: 2px !important;
+    border: 1px solid #ced4da !important;
+}
+
+.multiselect, .multiselect__input, .multiselect__single {
+    font-family: inherit !important;
+    font-size: inherit !important;
+}
+
+.multiselect__placeholder {
+    color: #adadad;
+    display: inline-block;
+    margin-bottom: 5px !important;
+    padding-top: 0 !important;
+}

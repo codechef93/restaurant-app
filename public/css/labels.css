@@ -1,0 +1,248 @@
+:root{
+    --label-sub-head: #848486;
+
+    --label-green: #56B396;
+    --label-green-bg: #E1FAF4;
+
+    --label-red: #DA3C4B;
+    --label-red-bg: #FBE7EA;
+
+    --label-orange: #E85A41;
+    --label-orange-bg: #FFD4CC;
+
+    --label-grey: #262625;
+    --label-grey-bg: #D4D3D3;
+
+    --label-blue: #005ABA;
+    --label-blue-bg: #b9d2ec52;
+
+    --label-yellow: #FFBA49;
+    --label-yellow-bg: #ffdfac4f;
+
+    --label-grey: #666666;
+    --label-grey-bg: #dddddd;
+
+    --radio-select-color: #2748f6c4;
+}
+
+/* 
+    ------ Text ------
+*/
+
+.text-display-4{
+    font-size: 112px !important;
+    font-weight: 300;
+}
+
+.text-display-3{
+    font-size: 56px !important;
+    font-weight: 400;
+}
+
+.text-display-2{
+    font-size: 45px !important;
+    font-weight: 400;
+}
+
+.text-display-1{
+    font-size: 34px !important;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.text-display-0{
+    font-size: 30px !important;
+    font-weight: 400;
+    vertical-align: text-top;
+}
+
+.text-headline{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-title{
+    font-size: 20px;
+    font-weight: 400;
+    vertical-align: text-top;
+}
+
+.text-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.text-subhead{
+    color: var(--label-sub-head);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.text-subhead-bold{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.text-menu{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text-button{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text-caption{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.text-thin{
+    font-weight: 300 !important;
+}
+
+.text-bold{
+    font-weight: 500 !important;
+}
+
+.highlight{
+    color: var(--main-title-color);
+}
+
+.breadcrumbs{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.badge {
+    padding: 0.45em .5em !important;
+    font-size: 85% !important;
+    font-weight: 500 !important;
+    border-radius: .15rem !important;
+}
+
+.actions-dropdown{
+    font-size: 12px;
+}
+
+.normal-text{
+    color: var(--main-title-color);
+}
+
+.custom-pre{
+    white-space: pre;
+}
+
+/* 
+    ------ End Text ------
+*/
+
+/* 
+    ------ Status labels ----
+*/
+
+.custom-control-label {
+    vertical-align: middle !important;
+}
+
+.inactive-dot{
+    height: 10px;
+    width: 10px;
+    background-color: var(--label-red);
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: unset;
+}
+
+.active-dot{
+    height: 10px;
+    width: 10px;
+    background-color: var(--label-green);
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: unset;
+}
+
+.label{
+    padding: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.green-label{
+    color: var(--label-green);
+    background: var(--label-green-bg);
+}
+
+.red-label{
+    color: var(--label-red);
+    background: var(--label-red-bg);
+}
+
+.orange-label{
+    color: var(--label-orange);
+    background: var(--label-orange-bg);
+}
+
+.grey-label{
+    color: var(--label-grey);
+    background: var(--label-grey-bg);
+}
+
+.blue-label{
+    color: var(--label-blue);
+    background: var(--label-blue-bg);
+}
+
+.yellow-label{
+    color: var(--label-yellow);
+    background: var(--label-yellow-bg);
+}
+
+.grey-label{
+    color: var(--label-grey);
+    background: var(--label-grey-bg);
+}
+
+.option-text{
+    font-weight: 400 !important;
+    color: inherit;
+}
+
+.timer-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: baseline;
+    background-color: var(--label-green);
+	box-shadow: 0 0 0 0 rgba(225, 250, 244, 1);
+	transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(86, 179, 150, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(86, 179, 150, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(86, 179, 150, 0);
+	}
+}
+
+.addon-label{
+    font-size: 10px;
+    padding: 5px;
+    font-weight: 500;
+}

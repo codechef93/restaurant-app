@@ -1,0 +1,46 @@
+:root{
+    --primary-btn-label-color: #3699ff;
+}
+
+.btn{
+    border-radius: .15rem !important;
+}
+
+.dropdown-item{
+    font-size: 14px !important;
+}
+
+.actions-dropdown-btn{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 15px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.actions-dropdown-btn::after{
+    content: none !important;
+}
+
+.btn-label{
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--primary-btn-label-color);
+}
+
+.menu-toggler>div{
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+.image-remove{
+    margin-top: 6px;
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+    border-radius: 2px;
+    margin-left: 120px;
+    position: absolute;
+}

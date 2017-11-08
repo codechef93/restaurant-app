@@ -1,0 +1,93 @@
+:root{
+    --label-color :rgba(0,0,0,.6);
+}
+
+.entry_form{
+    margin-top: 6rem;
+}
+
+.form-control{
+    border-radius: .15rem !important;
+    -webkit-border-radius: .15rem !important;
+    -moz-border-radius: .15rem !important;
+    -ms-border-radius: .15rem !important;
+}
+
+.form-control-custom{
+    height: 2.5rem;
+}
+
+.error{
+    color: #FF4136;
+    font-weight: 400;
+    padding-top: 10px;
+    display: block;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.mx-datepicker {
+    display: block !important;
+    width: auto !important;
+    font: inherit !important;
+}
+
+.mx-input-append{
+    display: none !important;
+}
+
+.mx-calendar-content .cell.actived{
+    background-color: var(--selected-color) !important;
+}
+
+.IZ-select__input{
+    border-radius: .15rem !important
+}
+
+.IZ-select .IZ-select__input{
+    height: 2.5rem !important; 
+}
+
+.po-product-search-btn{
+    margin-top: 34px;
+}
+
+.file-input{
+    padding: 3px;
+}
+
+.mx-datepicker-popup{
+    z-index: 9999 !important;
+}
+
+label{
+    color: var(--label-color);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.check-buttons{
+    background: #f3f6f9;
+    color: inherit;
+    padding: 5px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.check-buttons:hover{
+    color: #3699ff;
+    background-color: #e1f0ff;
+    border-color: transparent;
+}
+
+.check:checked ~ .check-buttons{
+    color: #3699ff;
+    background-color: #e1f0ff;
+    border-color: transparent;
+    font-weight: 500;
+}

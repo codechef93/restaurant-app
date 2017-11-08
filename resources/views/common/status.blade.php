@@ -1,0 +1,1 @@
+<span class="{{ $status_data['color'] }}">{{ $status_data['label'] }}</span>

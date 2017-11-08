@@ -1,0 +1,36 @@
+.components-small{
+    font-size: 10px;
+}
+
+.customer{
+    font-size: 13px;
+}
+
+.customer-image{
+    height: 50px;
+}
+
+.text-title{
+    font-size: 25px;
+    font-weight: 600;
+    vertical-align: text-top;
+}
+
+.text-sub-title{
+    font-size: 16px;
+    font-weight: 500;
+    vertical-align: text-top;
+}
+
+.heart{
+    height: 30px;
+    transform: rotatez(-25deg);
+}
+
+.powered-by{
+    height: 20px;
+}
+
+.company_logo{
+    height: 35px;
+}

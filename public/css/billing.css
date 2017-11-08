@@ -1,0 +1,156 @@
+.content-order {
+  width: 100%;
+  right: 10px;
+  left: 10px;
+  min-height: calc(100vh - 50px);
+}
+
+.full-height {
+  max-height: 100vh !important;
+}
+
+.find-product-btn {
+  margin-top: 2.3rem;
+}
+
+.cart_form {
+  padding-bottom: 25rem;
+}
+
+.cart-list {
+  overflow-y: scroll;
+}
+
+.cart-item-title {
+  width: 80%;
+}
+
+.cart-product-quantity {
+  width: 18%;
+  height: 2rem;
+}
+
+.cart-item-summary {
+  font-size: 12px;
+}
+
+.cart-summary {
+  z-index: 1;
+  margin-bottom: 3.8rem;
+  background: #e3e7eb !important;
+}
+
+.cart-summary-label {
+  font-size: 16px;
+}
+
+.cart-total {
+  font-size: 20px;
+}
+
+.cart-item-remove {
+  background: #e3e7eb !important;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+  border-radius: 50%;
+}
+
+.product {
+  min-height: 30%;
+  max-height: 40%;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+
+.product-list {
+  height: 100vh !important;
+  overflow-y: scroll;
+}
+
+.product-title {
+  font-size: 13px;
+}
+
+.product-grid {
+  border: 1px solid var(--border-color);
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.product-price-currency {
+  font-size: 14px;
+}
+
+.additional_discount {
+  width: 5rem;
+  vertical-align: bottom;
+}
+
+.focus {
+  border-color: #80bdff;
+  outline: 0;
+}
+
+.confirm_focus {
+  border: 1px solid #80bdff;
+  outline: 0;
+}
+
+.product-image {
+  height: 40px;
+  border: 5px solid #fff;
+}
+
+.horizontal-scroll {
+  overflow-y: scroll;
+}
+
+.hide-horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.customize-btn {
+  font-size: 12px;
+}
+
+.cart-item-addon {
+  font-size: 12px;
+}
+
+.cart-discount-tag {
+  font-size: 8px;
+}
+
+.textarea-small {
+  height: 34px !important;
+}
+
+.customer-image {
+  height: 5rem;
+}
+
+.show-more-billing-data {
+  width: 8rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: -2.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-radius: 2px;
+  background: #e3e7eb !important;
+}
+
+.show-more-billing-data-icon {
+  font-size: 10px;
+}
+
+.show-more-billing-data-text {
+  font-size: 12px;
+}

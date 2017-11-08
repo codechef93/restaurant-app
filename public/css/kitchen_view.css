@@ -1,0 +1,39 @@
+:root{
+    --border-color: #EAEDF3;
+
+    --label-green: #56b396;
+    --label-green-bg: #e1faf4;
+}
+
+.kitchen-card{
+    border: 1px solid  var(--border-color) !important;
+    border-radius: 2px !important;
+}
+
+.kitchen-wrapper{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.kitchen-order {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.kitchen-item-title{
+    width: 80%;
+}
+
+.kitchen-item-checker{
+    font-size: 25px;
+}
+
+.kitchen-item-checker:hover{
+    font-size: 26px;
+}
+
+.waiter-card-items{
+    height: 22rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}

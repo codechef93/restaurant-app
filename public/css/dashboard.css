@@ -1,0 +1,52 @@
+.box{
+    min-height: 40%;
+    max-height: 50%;
+    overflow-y: hidden;
+}
+
+.stat-value{
+    position: absolute;
+    bottom: 15px;
+}
+
+.chart_container{
+    width: 100%;
+    height: 400px;
+}
+
+.dashboard-target-label{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.progress-height{
+    height: 1px;
+}
+
+.table-container{
+    width: 100%;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.stat_chart_container{
+    width: 100%;
+    height: 100px;
+}
+
+.custom-billing-counter-separator{
+    margin-left: -21px;
+    margin-right: -21px;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+.custom-label{
+    color: inherit;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.stat-label{
+    font-size: 20px;
+}

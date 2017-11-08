@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="146px" height="147px" viewBox="0 0 146 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-77.000000, -77.000000)">
+            <g id="Group" transform="translate(77.000000, 77.000000)">
+                <circle id="Oval" fill="#007AFF" cx="73" cy="73" r="73"></circle>
+                <path d="M13.2371589,114 C33.1826191,82.6666667 53.1506416,67 73.1412265,67 C93.1318114,67 113.043671,82.6272089 132.876805,113.881627 C125.377334,124.217661 117.128449,132.097246 108.130151,137.52038 C99.1318529,142.943514 87.4218025,145.629242 73,145.577564 C60.7334778,145.515893 49.6105758,142.830165 39.6312942,137.52038 C29.6520125,132.210594 20.8539675,124.370468 13.2371589,114 Z" id="Path" stroke="#007AFF" fill-opacity="0.802261" fill="#FFFFFF"></path>
+                <circle id="Oval" fill-opacity="0.8" fill="#FFFFFF" cx="73" cy="40" r="17"></circle>
+                <path d="" id="Path-2" stroke="#979797"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+.store-list{
+    max-height: 40rem;
+    overflow-y: scroll;
+}
+
+.store-list-item{
+    cursor: pointer;
+}
+
+.store-list-item:hover{
+    background-color: #e2e6ea;
+}

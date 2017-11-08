@@ -1,0 +1,72 @@
+body{
+    font-family: 'Verdana';
+    font-size: 12px;
+}
+
+.small{
+    font-size: 10px;
+}
+
+table{
+    font-size: 12px;
+}
+
+td{
+    padding-bottom: 1rem;
+}
+
+.pt-1rem{
+    padding-top: 1rem;
+}
+
+.pb-1rem{
+    padding-bottom: 1rem;
+}
+
+.mb-1rem{
+    margin-bottom: 1rem;
+}
+
+.pb-0{
+    padding-bottom: 0;
+}
+
+.display-block{
+    display: inline-block;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.border-bottom-dashed{
+    border-bottom: 0.3px dashed #000;
+}
+
+.w-45{
+    width: 45% !important;
+}
+
+.w-50{
+    width: 50% !important;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+.h-50px{
+    height: 50px;
+}
+
+.pl-12{
+    padding-left: 12px;
+}

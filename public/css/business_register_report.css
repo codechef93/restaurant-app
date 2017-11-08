@@ -1,0 +1,118 @@
+body{
+    font-family: 'Courier New';
+    font-size: 8px;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+.w-50{
+    width: 50% !important;
+}
+
+.w-25{
+    width: 25% !important;
+}
+
+.small{
+    font-size: 7px;
+}
+
+table{
+    font-size: 10px;
+    line-height: 15px;
+}
+
+td{
+    padding-bottom: 1rem;
+}
+
+.pt-1rem{
+    padding-top: 1rem;
+}
+
+.pb-1rem{
+    padding-bottom: 1rem;
+}
+
+.pr-20px{
+    padding-right: 20px !important;
+}
+
+.pr-100px{
+    padding-right:100px !important;
+}
+
+.mb-1rem{
+    margin-bottom: 1rem !important;
+}
+
+.mb-2rem{
+    margin-bottom: 2rem !important;
+}
+
+.mb-3rem{
+    margin-bottom: 3rem !important;
+}
+
+.pb-0{
+    padding-bottom: 0;
+}
+
+.display-block{
+    display: inline-block;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.border-bottom-dashed{
+    border-bottom: 0.3px dashed #000;
+}
+
+.bordered-table {
+    border-collapse: collapse;
+}
+
+.bordered-table th{
+    background: #ddd;
+}
+  
+.bordered-table, .bordered-table th, .bordered-table td {
+    padding: 5px;
+    border: 0.5px solid #ddd;
+}
+
+.footer{
+    text-align: center;
+}
+
+.v-top{
+    vertical-align: top !important;
+}
+
+.h-50px{
+    height: 50px;
+}
+
+pre{
+    font-family: 'Verdana';
+}
+
+th{
+    background-color: #f3f6f9 !important;
+}

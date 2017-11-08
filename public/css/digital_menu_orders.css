@@ -1,0 +1,5 @@
+.custom-separator {
+    margin-left: -21px;
+    margin-right: -21px;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.05);
+}
